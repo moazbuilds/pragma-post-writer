@@ -2,7 +2,7 @@
 
 ## Why Pragma?
 
-Most post writers behave like rephrasers.  
+Most AI post-writing services behave like rephrasers.  
 They take your draft, smooth the wording, and give it back. It may read better, but it often misses your true intent, your real voice, and the influence structure behind strong writing.
 
 Pragma is built differently.
