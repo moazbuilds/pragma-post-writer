@@ -4,6 +4,8 @@
 
 <p align="center"><strong>Pragma is a modular AI skill and workflow that turns raw notes into publish-ready posts for social media, blogs, and forums ✍️</strong></p>
 
+<p align="center"><strong>Validated in OpenClaw, consistently producing high-quality post drafts.</strong></p>
+
 ## Installation
 
 ### NPX Skills
