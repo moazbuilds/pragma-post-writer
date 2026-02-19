@@ -7,7 +7,7 @@ const ROOT = __dirname;
 const SRC = path.join(ROOT, 'prompts', 'templates', 'pragma');
 const OUT = path.join(ROOT, 'skills', 'pragma-post-writer');
 const ROUTES_OUT = path.join(OUT, 'routes');
-const STEPS_OUT = path.join(ROUTES_OUT, 'expert-steps');
+const STEPS_OUT = path.join(ROUTES_OUT, 'ink');
 
 // ---------------------------------------------------------------------------
 // Step 1: Read all source files
@@ -159,11 +159,11 @@ When the user types \`next\`, read the next step file using the Read tool. The s
 
 | Step | File |
 |------|------|
-| 1. Pre-Writing | \`./expert-steps/step-01-pre-writing.md\` |
-| 2. Hook | \`./expert-steps/step-02-hook.md\` |
-| 3. Body | \`./expert-steps/step-03-body.md\` |
-| 4. Ending | \`./expert-steps/step-04-ending.md\` |
-| 5. Edit & Polish | \`./expert-steps/step-05-edit-polish.md\` |
+| 1. Pre-Writing | \`./ink/step-01-pre-writing.md\` |
+| 2. Hook | \`./ink/step-02-hook.md\` |
+| 3. Body | \`./ink/step-03-body.md\` |
+| 4. Ending | \`./ink/step-04-ending.md\` |
+| 5. Edit & Polish | \`./ink/step-05-edit-polish.md\` |
 `;
 
 const expertRoute = [

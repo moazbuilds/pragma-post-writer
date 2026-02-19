@@ -410,8 +410,8 @@ When the user types `next`, read the next step file using the Read tool. The ste
 
 | Step | File |
 |------|------|
-| 1. Pre-Writing | `./expert-steps/step-01-pre-writing.md` |
-| 2. Hook | `./expert-steps/step-02-hook.md` |
-| 3. Body | `./expert-steps/step-03-body.md` |
-| 4. Ending | `./expert-steps/step-04-ending.md` |
-| 5. Edit & Polish | `./expert-steps/step-05-edit-polish.md` |
+| 1. Pre-Writing | `./ink/step-01-pre-writing.md` |
+| 2. Hook | `./ink/step-02-hook.md` |
+| 3. Body | `./ink/step-03-body.md` |
+| 4. Ending | `./ink/step-04-ending.md` |
+| 5. Edit & Polish | `./ink/step-05-edit-polish.md` |
