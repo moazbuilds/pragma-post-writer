@@ -116,12 +116,12 @@ Wait for the answer before loading any workflow content.
 ## ROUTING RULES
 
 - If user chooses **quick** or **flash**:
-  - Read only: \`./routes/quick.md\`
+  - Read only: \`./routes/flash.md\`
   - Execute that workflow
   - Do not load expert files
 
 - If user chooses **expert** or **ink**:
-  - Read: \`./routes/expert.md\`
+  - Read: \`./routes/ink.md\`
   - Then follow step loading using the expert step paths in that file
   - Do not load quick files
 
@@ -147,7 +147,7 @@ const quickRoute = [
   '',
   quickBody,
 ].join('\n');
-fs.writeFileSync(path.join(ROUTES_OUT, 'quick.md'), quickRoute);
+fs.writeFileSync(path.join(ROUTES_OUT, 'flash.md'), quickRoute);
 
 let expertWorkflowBody = stripFrontmatter(expertWorkflow);
 expertWorkflowBody = expertWorkflowBody.replace(/\{post_writer_system_rules\}\n*/g, '');
@@ -177,7 +177,7 @@ const expertRoute = [
   '',
   expertStepPathMap,
 ].join('\n');
-fs.writeFileSync(path.join(ROUTES_OUT, 'expert.md'), expertRoute);
+fs.writeFileSync(path.join(ROUTES_OUT, 'ink.md'), expertRoute);
 
 // ---------------------------------------------------------------------------
 // Step 6: Copy and transform expert step files
@@ -194,8 +194,8 @@ for (const step of steps) {
 
 console.log('Build complete!');
 console.log(`  SKILL.md  -> ${path.relative(ROOT, path.join(OUT, 'SKILL.md'))}`);
-console.log(`  quick.md -> ${path.relative(ROOT, path.join(ROUTES_OUT, 'quick.md'))}`);
-console.log(`  expert.md -> ${path.relative(ROOT, path.join(ROUTES_OUT, 'expert.md'))}`);
+console.log(`  flash.md -> ${path.relative(ROOT, path.join(ROUTES_OUT, 'flash.md'))}`);
+console.log(`  ink.md -> ${path.relative(ROOT, path.join(ROUTES_OUT, 'ink.md'))}`);
 for (const step of steps) {
   console.log(`  ${step.name} -> ${path.relative(ROOT, path.join(STEPS_OUT, step.name))}`);
 }

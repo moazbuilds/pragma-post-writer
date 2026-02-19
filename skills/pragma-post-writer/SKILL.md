@@ -26,12 +26,12 @@ Wait for the answer before loading any workflow content.
 ## ROUTING RULES
 
 - If user chooses **quick** or **flash**:
-  - Read only: `./routes/quick.md`
+  - Read only: `./routes/flash.md`
   - Execute that workflow
   - Do not load expert files
 
 - If user chooses **expert** or **ink**:
-  - Read: `./routes/expert.md`
+  - Read: `./routes/ink.md`
   - Then follow step loading using the expert step paths in that file
   - Do not load quick files
 
