@@ -16,7 +16,7 @@ npx skills add https://github.com/moazbuilds/pragma-post-writer
 
 Then use it inside Claude Code, OpenClaw, or any CLI tool or IDE that accepts skills, by running `/pragma-post-writer` and following the workflow.
 
-### CodeMachine CLI (Recommended for full experiance)
+### CodeMachine CLI (Full experiance)
 
 Make sure you have CodeMachine CLI installed.
 
