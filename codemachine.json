@@ -1,5 +1,5 @@
 {
-  "name": "post-writer",
+  "name": "pragma-post-writer",
   "version": "1.0.0",
   "description": "LinkedIn post writing workflow — Quick Mode for fast delivery, Expert Mode for step-by-step guidance through pre-writing, hook, body, ending, and editing",
   "paths": {
