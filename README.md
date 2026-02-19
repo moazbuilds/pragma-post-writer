@@ -53,6 +53,10 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 - builds hook, body, ending, and CTA in sequence  
 - after writing, it lets you humanize the draft to remove AI tone and make it sound like your own voice
 
+## Workflow Flowchart
+
+![Pragma workflow flowchart](./flowchart.png)
+
 ## Technical Design
 
 - **Two execution tracks**
@@ -77,7 +81,3 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
   - Shared system rules + route-specific prompts.
   - Router selects `Flash` or `Ink`.
   - Keeps behavior consistent and easy to maintain.
-
-## Workflow Flowchart
-
-![Pragma workflow flowchart](./flowchart.png)
