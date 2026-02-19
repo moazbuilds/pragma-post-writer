@@ -6,15 +6,18 @@ const path = require('path');
 const ROOT = __dirname;
 const SRC = path.join(ROOT, 'prompts', 'templates', 'pragma-post-writer');
 const OUT = path.join(ROOT, 'skills', 'pragma-post-writer');
-const STEPS_OUT = path.join(OUT, 'steps');
+const ROUTES_OUT = path.join(OUT, 'routes');
+const STEPS_OUT = path.join(ROUTES_OUT, 'expert-steps');
 
 // ---------------------------------------------------------------------------
 // Step 1: Read all source files
 // ---------------------------------------------------------------------------
 
-const persona = fs.readFileSync(path.join(SRC, 'expert-writer', 'persona.md'), 'utf8');
 const systemRules = fs.readFileSync(path.join(SRC, 'shared', 'system-rules.md'), 'utf8');
-const workflow = fs.readFileSync(path.join(SRC, 'expert-writer', 'workflow.md'), 'utf8');
+const quickPersona = fs.readFileSync(path.join(SRC, 'quick-writer', 'persona.md'), 'utf8');
+const quickPrompt = fs.readFileSync(path.join(SRC, 'quick-writer', 'prompt.md'), 'utf8');
+const expertPersona = fs.readFileSync(path.join(SRC, 'expert-writer', 'persona.md'), 'utf8');
+const expertWorkflow = fs.readFileSync(path.join(SRC, 'expert-writer', 'workflow.md'), 'utf8');
 
 const stepFiles = fs.readdirSync(path.join(SRC, 'expert-writer', 'chained'))
   .filter(f => /^step-\d+-.*\.md$/.test(f))
@@ -73,59 +76,101 @@ function stripFrontmatter(text) {
 // Step 3: Clean output directory
 // ---------------------------------------------------------------------------
 
-const skillsDir = path.join(ROOT, 'skills');
-if (fs.existsSync(skillsDir)) {
-  fs.rmSync(skillsDir, { recursive: true, force: true });
+if (fs.existsSync(OUT)) {
+  fs.rmSync(OUT, { recursive: true, force: true });
 }
 fs.mkdirSync(STEPS_OUT, { recursive: true });
 
 // ---------------------------------------------------------------------------
-// Step 4: Build SKILL.md
+// Step 4: Build route-aware SKILL.md
 // ---------------------------------------------------------------------------
 
 const frontmatter = `---
 name: pragma-post-writer
-description: "Step-by-step LinkedIn post writing coach with chained phases. Type /pragma-post-writer to start."
+description: "LinkedIn post writer with route selection. Ask quick (Flash 💥) or expert (Ink 🖋️), then load only that workflow."
 ---
 `;
 
-const personaBody = applyReplacements(stripFrontmatter(persona));
 const systemRulesBody = applyReplacements(stripFrontmatter(systemRules));
 
-let workflowBody = stripFrontmatter(workflow);
-workflowBody = workflowBody.replace(/\{post_writer_system_rules\}\n*/g, '');
-workflowBody = applyReplacements(workflowBody);
+const routerBody = `# Pragma Post Writer Router
 
-const stepPathMap = `## STEP FILE PATHS
+## START HERE
 
-When the user types \`next\`, read the next step file using the Read tool. The step files are located relative to this SKILL.md file:
+Your first question MUST be:
 
-| Step | File |
-|------|------|
-| 1. Pre-Writing | \`./steps/step-01-pre-writing.md\` |
-| 2. Hook | \`./steps/step-02-hook.md\` |
-| 3. Body | \`./steps/step-03-body.md\` |
-| 4. Ending | \`./steps/step-04-ending.md\` |
-| 5. Edit & Polish | \`./steps/step-05-edit-polish.md\` |
+"What do you want: **quick (Flash 💥)** or **expert (Ink 🖋️)**?"
 
-**How to load steps:** Use the Read tool to read the file path. The path is relative to this skill's directory. Resolve it from the directory where this SKILL.md is located.
+Wait for the answer before loading any workflow content.
+
+## ROUTING RULES
+
+- If user chooses **quick** or **flash**:
+  - Read only: \`./routes/quick.md\`
+  - Execute that workflow
+  - Do not load expert files
+
+- If user chooses **expert** or **ink**:
+  - Read: \`./routes/expert.md\`
+  - Then follow step loading using the expert step paths in that file
+  - Do not load quick files
+
+- If unclear:
+  - Ask again with the same two options
 `;
 
-const skillMd = [
-  frontmatter,
-  personaBody,
-  '\n',
-  systemRulesBody,
-  '\n',
-  workflowBody,
-  '\n',
-  stepPathMap,
-].join('\n');
+const skillMd = [frontmatter, routerBody].join('\n');
 
 fs.writeFileSync(path.join(OUT, 'SKILL.md'), skillMd);
 
 // ---------------------------------------------------------------------------
-// Step 5: Copy and transform step files
+// Step 5: Build route files
+// ---------------------------------------------------------------------------
+
+let quickBody = stripFrontmatter(quickPrompt);
+quickBody = quickBody.replace(/\{post_writer_system_rules\}\n*/g, `${systemRulesBody}\n\n`);
+quickBody = applyReplacements(quickBody);
+const quickRoute = [
+  '# Quick Route: Flash 💥',
+  '',
+  applyReplacements(stripFrontmatter(quickPersona)),
+  '',
+  quickBody,
+].join('\n');
+fs.writeFileSync(path.join(ROUTES_OUT, 'quick.md'), quickRoute);
+
+let expertWorkflowBody = stripFrontmatter(expertWorkflow);
+expertWorkflowBody = expertWorkflowBody.replace(/\{post_writer_system_rules\}\n*/g, '');
+expertWorkflowBody = applyReplacements(expertWorkflowBody);
+
+const expertStepPathMap = `## STEP FILE PATHS
+
+When the user types \`next\`, read the next step file using the Read tool. The step files are located relative to this file:
+
+| Step | File |
+|------|------|
+| 1. Pre-Writing | \`./expert-steps/step-01-pre-writing.md\` |
+| 2. Hook | \`./expert-steps/step-02-hook.md\` |
+| 3. Body | \`./expert-steps/step-03-body.md\` |
+| 4. Ending | \`./expert-steps/step-04-ending.md\` |
+| 5. Edit & Polish | \`./expert-steps/step-05-edit-polish.md\` |
+`;
+
+const expertRoute = [
+  '# Expert Route: Ink 🖋️',
+  '',
+  applyReplacements(stripFrontmatter(expertPersona)),
+  '',
+  systemRulesBody,
+  '',
+  expertWorkflowBody,
+  '',
+  expertStepPathMap,
+].join('\n');
+fs.writeFileSync(path.join(ROUTES_OUT, 'expert.md'), expertRoute);
+
+// ---------------------------------------------------------------------------
+// Step 6: Copy and transform expert step files
 // ---------------------------------------------------------------------------
 
 for (const step of steps) {
@@ -139,6 +184,8 @@ for (const step of steps) {
 
 console.log('Build complete!');
 console.log(`  SKILL.md  -> ${path.relative(ROOT, path.join(OUT, 'SKILL.md'))}`);
+console.log(`  quick.md -> ${path.relative(ROOT, path.join(ROUTES_OUT, 'quick.md'))}`);
+console.log(`  expert.md -> ${path.relative(ROOT, path.join(ROUTES_OUT, 'expert.md'))}`);
 for (const step of steps) {
   console.log(`  ${step.name} -> ${path.relative(ROOT, path.join(STEPS_OUT, step.name))}`);
 }
