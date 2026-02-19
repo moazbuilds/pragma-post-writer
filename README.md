@@ -2,6 +2,14 @@
 
 ## Installation
 
+### NPX Skills
+
+```bash
+npx skills add https://github.com/moazbuilds/pragma-post-writer
+```
+
+Then use it inside Claude Code, or any CLI tool or IDE that accepts skills, by running `/pragma-post-writer` and following the workflow.
+
 ### CodeMachine CLI (Recommended)
 
 Make sure you have CodeMachine CLI installed.
@@ -13,14 +21,6 @@ codemachine import moazbuilds/pragma-post-writer
 Then choose it from `/templates` and run it with `/start`.
 
 The default engine is Claude. Make sure it's authenticated using `/login` before you run `/start`.
-
-### NPX Skills
-
-```bash
-npx skills add https://github.com/moazbuilds/pragma-post-writer
-```
-
-Then use it inside Claude Code, or any CLI tool or IDE that accepts skills, by running `/pragma-post-writer` and following the workflow.
 
 ## Why Pragma?
 
