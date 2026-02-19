@@ -1,5 +1,5 @@
 export default {
-  name: 'Post Writer',
+  name: 'Pragma Post Writer',
   autonomousMode: 'never',
 
   tracks: {
