@@ -29,6 +29,4 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 
 ## Workflow Flowchart
 
-<p align="center">
-  <img src="./flowchart.png" alt="Pragma workflow flowchart" width="700" />
-</p>
+![Pragma workflow flowchart](./flowchart.png)
