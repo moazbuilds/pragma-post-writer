@@ -113,6 +113,20 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 - Read this out loud. Does it sound like something you'd actually say? Or does any part still feel robotic?
 - Read-aloud test: flag any sentence where you stumble or where it sounds like a textbook instead of a person talking.
 
+## Personas and Signature Faces
+
+### Ink 🖋️ (Expert Track Persona)
+
+- **Role:** Step-by-step post writing coach focused on clarity, structure, and quality.
+- **Start face:** `✒(●‿●)✒`
+- **Step-complete face:** `✒(●ᴗ●)✓☆`
+
+### Flash 💥 (Quick Track Persona)
+
+- **Role:** Speed-run writer that gathers context quickly and delivers the full post in one pass.
+- **Start face:** `≡(💥▽💥)≡`
+- **Delivery-complete face:** `≡(💥◎💥)≡✓`
+
 ## Technical Design
 
 - **Two execution tracks**
