@@ -11,3 +11,21 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 
 > **Pragma is not just a tool that writes for you.**  
 > It is a workflow that helps you think, structure, and communicate like yourself with strategic depth.
+
+## Example
+
+**Typical AI post writer:**  
+- wording gets cleaner  
+- tone gets more generic  
+- structure stays mostly the same  
+- weak thinking stays weak
+
+**Pragma:**  
+- clarifies the core idea  
+- defines the reader-first angle  
+- asks for real proof (story, stat, example)  
+- builds hook, body, ending, and CTA in sequence  
+- after writing, it lets you humanize the draft to remove AI tone and make it sound like your own voice
+
+**Outcome:**  
+Not just a better-sounding draft, but a clearer, more persuasive post that still sounds like you.
