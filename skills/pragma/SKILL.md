@@ -1,6 +1,6 @@
 ---
 name: pragma-post-writer
-description: "LinkedIn post writer with route selection. Ask quick (Flash 💥) or expert (Ink 🖋️), then load only that workflow."
+description: "post writer with route selection for social media, blogs, and forums. Ask quick (Flash 💥) or expert (Ink 🖋️), then load only that workflow."
 ---
 
 # Pragma Post Writer Router

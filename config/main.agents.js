@@ -10,7 +10,7 @@ module.exports = [
   {
     id: 'quick-writer',
     name: 'Flash 💥 | Post Writer',
-    description: 'Speed-run LinkedIn post writer that gathers context and delivers a complete, publish-ready post in one step',
+    description: 'Speed-run post writer that gathers context and delivers a complete, publish-ready post in one step',
     promptPath: [
       path.join(promptsDir, 'pragma', 'flash', 'persona.md'),
       path.join(promptsDir, 'pragma', 'flash', 'prompt.md'),
@@ -22,7 +22,7 @@ module.exports = [
   {
     id: 'expert-writer',
     name: 'Ink 🖋️ | Post Writer',
-    description: 'LinkedIn post writing coach that guides users step-by-step through crafting a masterpiece post',
+    description: 'Post writing coach that guides users step-by-step through crafting a masterpiece post',
     promptPath: [
       path.join(promptsDir, 'pragma', 'ink', 'persona.md'),
       path.join(promptsDir, 'pragma', 'ink', 'workflow.md'),

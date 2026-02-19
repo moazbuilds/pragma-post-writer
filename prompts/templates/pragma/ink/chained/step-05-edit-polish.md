@@ -167,7 +167,7 @@ AFTER EVERY USER RESPONSE:
 
 ## Step Completion
 
-"**Your LinkedIn post is ready to publish!**
+"**Your post is ready to publish!**
 
 ---
 
@@ -194,7 +194,7 @@ AFTER EVERY USER RESPONSE:
 ┌─────────────────────────────────────────────────────────┐
 │  ✓ POST COMPLETE                                        │
 │                                                         │
-│  Your LinkedIn post is ready to publish.                │
+│  Your post is ready to publish.                │
 │                                                         │
 │  → Go make it happen.                                   │
 └─────────────────────────────────────────────────────────┘"

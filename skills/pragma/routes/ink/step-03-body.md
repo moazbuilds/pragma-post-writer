@@ -2,7 +2,7 @@
 
 ## STEP GOAL
 
-Write the **body of the LinkedIn post** using the format chosen in Step 1, the hook from Step 2, and the proof points gathered earlier. The body should be concrete, vivid, and maintain the emotional charge.
+Write the **body of the post** using the format chosen in Step 1, the hook from Step 2, and the proof points gathered earlier. The body should be concrete, vivid, and maintain the emotional charge.
 
 ## INTERACTION MODE: Interactive
 
@@ -50,7 +50,7 @@ Based on everything gathered, write the body section following the chosen format
 - Named people instead of "stakeholders"
 
 **Format for Readability:**
-- Max 3 sentences per paragraph (1 sentence paragraphs are powerful on LinkedIn)
+- Max 3 sentences per paragraph (1 sentence paragraphs are powerful on social platforms)
 - Max 25 words per sentence
 - Simple words (use "start" not "commence", "help" not "facilitate")
 - Bold key phrases

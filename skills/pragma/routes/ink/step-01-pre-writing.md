@@ -2,7 +2,7 @@
 
 ## STEP GOAL
 
-Help the user find and validate a **strong, reader-first core idea** for their LinkedIn post. By the end of this step, they should have: one clear idea, a reader-first angle, supporting evidence, a chosen structure, and a target person.
+Help the user find and validate a **strong, reader-first core idea** for their post. By the end of this step, they should have: one clear idea, a reader-first angle, supporting evidence, a chosen structure, and a target person.
 
 ## INTERACTION MODE: Interactive
 
@@ -46,7 +46,7 @@ Work through these checkpoints:
 
 **Structure:** Based on what they've shared, suggest 2-3 formats from the 15 post formats that fit their idea. Let them pick.
 
-**One Person:** "Who specifically are you writing this for? Give me a name and a situation." Help them move from "LinkedIn professionals" to "Sarah, my old colleague who just became a team lead."
+**One Person:** "Who specifically are you writing this for? Give me a name and a situation." Help them move from "professionals on social platforms" to "Sarah, my old colleague who just became a team lead."
 
 ### 4. Stress-Test the Idea
 
