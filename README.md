@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./banner.png" alt="Pragma Banner" width="100%">
+</p>
+
 <p align="center"><strong>Pragma is a modular AI skill and workflow that turns raw notes into publish-ready posts for social media, blogs, and forums ✍️</strong></p>
 
 ## Installation
