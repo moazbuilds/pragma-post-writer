@@ -53,6 +53,31 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 - builds hook, body, ending, and CTA in sequence  
 - after writing, it lets you humanize the draft to remove AI tone and make it sound like your own voice
 
+## Technical Design
+
+- **Two execution tracks**
+  - `Flash`: one-step writing with full-context intake.
+  - `Ink`: a 5-step guided flow (`Pre-Writing -> Hook -> Body -> Ending -> Edit & Polish`).
+
+- **Step-gated orchestration**
+  - Each step has one objective and one responsibility.
+  - Steps do not self-advance.
+  - Progression is controlled by the workflow system/user action, which prevents premature jumps.
+
+- **Structured generation instead of one-shot drafting**
+  - Each phase validates specific artifacts (angle, proof, hook, CTA, tone).
+  - Later phases build on earlier outputs.
+  - This reduces drift, generic writing, and weak post logic.
+
+- **Humanization at the end**
+  - Structure and persuasion are solved first.
+  - AI tone cleanup is applied last so voice improves without breaking message strategy.
+
+- **Modular prompt architecture**
+  - Shared system rules + route-specific prompts.
+  - Router selects `Flash` or `Ink`.
+  - Keeps behavior consistent and easy to maintain.
+
 ## Workflow Flowchart
 
 ![Pragma workflow flowchart](./flowchart.png)
