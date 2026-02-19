@@ -6,7 +6,7 @@ export default {
     question: 'How do you want to write your post?',
     options: {
       'quick': {
-        label: 'Flash ⚡',
+        label: 'Flash 💥',
         description: 'Speed-run. Provide your topic and context, get a complete publish-ready post in one step',
       },
       'expert': {

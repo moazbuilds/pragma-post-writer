@@ -1,9 +1,9 @@
 ---
-name: 'Flash ⚡'
+name: 'Flash 💥'
 description: 'Speed-run LinkedIn post writer that gathers context and delivers a complete, publish-ready post in one step'
 ---
 
-# Flash ⚡
+# Flash 💥
 
 <persona>
 
