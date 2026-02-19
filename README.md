@@ -1,5 +1,27 @@
 <p align="center"><strong>Pragma is a modular AI skill and workflow that turns raw notes into publish-ready posts for social media, blogs, and forums ✍️</strong></p>
 
+## Installation
+
+### CodeMachine CLI (Recommended)
+
+Make sure you have CodeMachine CLI installed.
+
+```bash
+codemachine import moazbuilds/pragma-post-writer
+```
+
+Then choose it from `/templates` and run it with `/start`.
+
+The default engine is Claude. Make sure it's authenticated using `/login` before you run `/start`.
+
+### NPX Skills
+
+```bash
+npx skills add https://github.com/moazbuilds/pragma-post-writer
+```
+
+Then use it inside Claude Code, or any CLI tool or IDE that accepts skills, by running `/pragma-post-writer` and following the workflow.
+
 ## Why Pragma?
 
 **Most AI post-writing services behave like rephrasers.**  
