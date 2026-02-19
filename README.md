@@ -27,5 +27,6 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 - builds hook, body, ending, and CTA in sequence  
 - after writing, it lets you humanize the draft to remove AI tone and make it sound like your own voice
 
-**Outcome:**  
-Not just a better-sounding draft, but a clearer, more persuasive post that still sounds like you.
+## Workflow Flowchart
+
+![Pragma workflow flowchart](./flowchart.png)
