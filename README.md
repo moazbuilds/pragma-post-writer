@@ -2,10 +2,12 @@
 
 ## Why Pragma?
 
-Most one-step writers generate a draft in a single pass.
-Pragma is different because it gives you two paths:
+Most post writers behave like rephrasers.  
+They take your draft, smooth the wording, and give it back. It may read better, but it often misses your true intent, your real voice, and the influence structure behind strong writing.
 
-- **Flash (Quick):** one-step output when speed is the priority.
-- **Ink (Expert):** a guided 5-step workflow (idea, hook, body, ending, polish) for higher-quality writing.
+Pragma is built differently.
 
-That means you can choose speed when needed, or use structure when quality matters.
+It does not begin with sentence polishing. It begins with clarity: what you actually want to say, who it is for, why it matters, and what proof supports it. Then it builds the post step by step, so the thinking gets stronger before the wording gets prettier.
+
+So Pragma is not just a tool that writes for you.  
+It is a workflow that helps you think, structure, and communicate like yourself with strategic depth.
