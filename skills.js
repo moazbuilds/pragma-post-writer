@@ -5,7 +5,7 @@ const path = require('path');
 
 const ROOT = __dirname;
 const SRC = path.join(ROOT, 'prompts', 'templates', 'pragma');
-const OUT = path.join(ROOT, 'skills', 'pragma-post-writer');
+const OUT = path.join(ROOT, 'skills', 'pragma');
 const ROUTES_OUT = path.join(OUT, 'routes');
 const STEPS_OUT = path.join(ROUTES_OUT, 'ink');
 
