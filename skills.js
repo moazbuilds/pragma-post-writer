@@ -14,18 +14,18 @@ const STEPS_OUT = path.join(ROUTES_OUT, 'expert-steps');
 // ---------------------------------------------------------------------------
 
 const systemRules = fs.readFileSync(path.join(SRC, 'shared', 'system-rules.md'), 'utf8');
-const quickPersona = fs.readFileSync(path.join(SRC, 'quick-writer', 'persona.md'), 'utf8');
-const quickPrompt = fs.readFileSync(path.join(SRC, 'quick-writer', 'prompt.md'), 'utf8');
-const expertPersona = fs.readFileSync(path.join(SRC, 'expert-writer', 'persona.md'), 'utf8');
-const expertWorkflow = fs.readFileSync(path.join(SRC, 'expert-writer', 'workflow.md'), 'utf8');
+const quickPersona = fs.readFileSync(path.join(SRC, 'flash', 'persona.md'), 'utf8');
+const quickPrompt = fs.readFileSync(path.join(SRC, 'flash', 'prompt.md'), 'utf8');
+const expertPersona = fs.readFileSync(path.join(SRC, 'ink', 'persona.md'), 'utf8');
+const expertWorkflow = fs.readFileSync(path.join(SRC, 'ink', 'workflow.md'), 'utf8');
 
-const stepFiles = fs.readdirSync(path.join(SRC, 'expert-writer', 'chained'))
+const stepFiles = fs.readdirSync(path.join(SRC, 'ink', 'chained'))
   .filter(f => /^step-\d+-.*\.md$/.test(f))
   .sort();
 
 const steps = stepFiles.map(f => ({
   name: f,
-  content: fs.readFileSync(path.join(SRC, 'expert-writer', 'chained', f), 'utf8'),
+  content: fs.readFileSync(path.join(SRC, 'ink', 'chained', f), 'utf8'),
 }));
 
 // ---------------------------------------------------------------------------
