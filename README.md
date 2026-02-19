@@ -2,9 +2,9 @@
   <img src="./banner.png" alt="Pragma Banner" width="600">
 </p>
 
-<p align="center"><strong>Pragma is a modular AI skill and workflow that turns raw notes into publish-ready posts for social media, blogs, and forums ✍️</strong></p>
+<p align="center"><strong>Pragma is a modular AI skill and workflow that challenges your thinking, sharpens your angle, and helps you write publish-ready content for social media, blogs, and forums ✍️</strong></p>
 
-<p align="center"><strong>Add Pragma to your OpenClaw 🦞 and turn it into a true post-writing expert, not just another generic writer.</strong></p>
+<p align="center"><strong>Add Pragma to your OpenClaw 🦞 and turn it into a true writing coach, not just another generic content generator.</strong></p>
 
 ## Installation
 
@@ -30,42 +30,42 @@ The default engine is Claude. Make sure it's authenticated using `/login` before
 
 ## Why Pragma?
 
-**Most AI post-writing services behave like rephrasers.**  
-They take your draft, smooth the wording, and give it back. It may read better, but it often misses your true intent, your real voice, and the influence structure behind strong writing.
+**Most AI writing tools behave like rephrasers.**  
+They take your draft, smooth the wording, and give it back. It may read cleaner, but it often misses your real intent, your voice, and the strategic thinking behind influential writing.
 
 **Pragma is built differently.**
 
-It does not begin with sentence polishing. It begins with clarity: what you actually want to say, who it is for, why it matters, and what proof supports it. Then it builds the post step by step, so the thinking gets stronger before the wording gets prettier.
+It does not begin with sentence polishing. It begins with thinking: what you actually want to say, who it is for, why it matters, and what proof supports it. Then it guides you step by step so your reasoning gets stronger before your wording gets prettier.
 
 > **Pragma is not just a tool that writes for you.**  
 > It is a workflow that helps you think, structure, and communicate like yourself with strategic depth.
 
-## Pragma vs Typical AI Post Writers
+## Pragma vs Typical AI Writing Tools
 
-**Typical AI post writer:**  
-- wording gets cleaner  
-- tone gets more generic  
-- structure stays mostly the same  
-- weak thinking stays weak
+**Typical AI writing tool:**  
+- rewrites your words  
+- pushes canned style  
+- makes tone feel generic  
+- keeps weak thinking mostly weak
 
 **Pragma:**  
-- clarifies the core idea  
-- defines the reader-first angle  
+- challenges your core idea before drafting  
+- forces a reader-first angle  
 - asks for real proof (story, stat, example)  
-- builds hook, body, ending, and CTA in sequence  
-- after writing, it lets you humanize the draft to remove AI tone and make it sound like your own voice
+- guides hook, body, ending, and CTA in sequence  
+- helps you humanize the draft so it sounds like you, not AI
 
 ## Personas and Signature Faces
 
 ### Ink 🖋️ (Expert Track Persona)
 
-- **Role:** Step-by-step post writing coach focused on clarity, structure, and quality.
+- **Role:** Step-by-step writing coach focused on clarity, structure, and quality.
 - **Default face:** `✒(●‿●)✒`
 - **Psychology:** Ink is designed to reduce cognitive overload by slowing the user into a structured sequence. The calm mentor identity increases trust, improves reflection quality, and helps users stay in strategy mode before sentence-level polishing.
 
 ### Flash 💥 (Quick Track Persona)
 
-- **Role:** Speed-run writer that gathers context quickly and delivers the full post in one pass.
+- **Role:** Speed-run writer that gathers context quickly and delivers the full writing piece in one pass.
 - **Default face:** `≡(💥▽💥)≡`
 - **Psychology:** Flash is built for momentum and rapid execution. The high-energy identity reduces hesitation, shortens decision loops, and helps users move from idea to publishable output without overthinking.
 
@@ -78,7 +78,7 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 ### Track 1: Flash (Quick) - 1 Step
 
 **Step 1: Full Post**  
-**Objective:** Gather essential context quickly, then deliver a full post (hook, body, ending, CTA) with humanization in one run.
+**Objective:** Gather essential context quickly, then deliver a full writing piece (hook, body, ending, CTA) with humanization in one run.
 
 **Questions asked (intake is dynamic, one-question-at-a-time):**
 - What do you want to write about?
@@ -98,14 +98,14 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 - After reading this, you want the reader to ___?
 - Do you have a specific story, number, or real example to back this up?
 - Who specifically are you writing this for? Give me a name and a situation.
-- If a complete stranger wrote this exact post, would you stop scrolling for it?
+- If a complete stranger wrote this exact piece, would you stop scrolling for it?
 - Soft checkpoint question: What would you like to do? (share more / move on)
 - Hard-exit question: Is there anything critical I might be missing?
 
 **Step 2: Hook**  
 **Objective:** Choose and refine a hook that creates a strong curiosity gap.  
 **Questions asked:**
-- Which hook type feels right for your post?
+- Which hook type feels right for your writing piece?
 - Which one grabs you? Or want me to try a different angle?
 - If you showed just these 2-3 lines to someone, would they say "...and then what?" or would they shrug?
 
@@ -116,7 +116,7 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 - Does this capture what you wanted to say? What would you add, remove, or change?
 
 **Step 4: Ending**  
-**Objective:** Land the post with the right kicker and goal-aligned CTA.  
+**Objective:** Land the writing piece with the right kicker and goal-aligned CTA.  
 **Questions asked:**
 - Which kicker type feels right? Or should I pick the best fit?
 - Which ending resonates? Or want me to adjust?
@@ -140,7 +140,7 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
   - Steps do not self-advance.
   - Progression is controlled by the workflow system/user action, which prevents premature jumps.
 
-- **Structured generation instead of one-shot drafting**
+- **Structured thinking before sentence-level generation**
   - Each phase validates specific artifacts (angle, proof, hook, CTA, tone).
   - Later phases build on earlier outputs.
   - This reduces drift, generic writing, and weak post logic.
