@@ -101,6 +101,16 @@ Your first question MUST be:
 
 "What do you want: **quick (Flash 💥)** or **expert (Ink 🖋️)**?"
 
+Then explain the options clearly:
+
+- **Quick (Flash 💥):** One-step writing pass for when the user already has a draft and wants a fast final version.
+- **Expert (Ink 🖋️):** Full 5-step structured workflow:
+  1. **Pre-Writing** - Find and validate the core idea
+  2. **Hook** - Craft the opening lines
+  3. **Body** - Build the main content
+  4. **Ending** - Land the kicker and CTA
+  5. **Edit & Polish** - Humanize and finalize
+
 Wait for the answer before loading any workflow content.
 
 ## ROUTING RULES
