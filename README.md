@@ -57,6 +57,62 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 
 ![Pragma workflow flowchart](./flowchart.png)
 
+## Full Workflow Steps and Questions
+
+### Track 1: Flash (Quick) - 1 Step
+
+**Step 1: Full Post**  
+**Objective:** Gather essential context quickly, then deliver a full post (hook, body, ending, CTA) with humanization in one run.
+
+**Questions asked (intake is dynamic, one-question-at-a-time):**
+- What do you want to write about?
+- Can you text this core idea in one sentence so a friend gets it?
+- After reading this, you want the reader to ___?
+- Do you have a specific story, number, or real example?
+- Who exactly is this for (one person, one situation)?
+- Soft checkpoint question: What would you like to do? (share more / move on)
+- Hard-exit question: Is there anything critical I might be missing?
+
+### Track 2: Ink (Expert) - 5 Steps
+
+**Step 1: Pre-Writing**  
+**Objective:** Validate core idea, reader-first angle, proof, structure, and target reader before drafting.  
+**Questions asked:**
+- What do you want to write about?
+- After reading this, you want the reader to ___?
+- Do you have a specific story, number, or real example to back this up?
+- Who specifically are you writing this for? Give me a name and a situation.
+- If a complete stranger wrote this exact post, would you stop scrolling for it?
+- Soft checkpoint question: What would you like to do? (share more / move on)
+- Hard-exit question: Is there anything critical I might be missing?
+
+**Step 2: Hook**  
+**Objective:** Choose and refine a hook that creates a strong curiosity gap.  
+**Questions asked:**
+- Which hook type feels right for your post?
+- Which one grabs you? Or want me to try a different angle?
+- If you showed just these 2-3 lines to someone, would they say "...and then what?" or would they shrug?
+
+**Step 3: Body**  
+**Objective:** Build the main draft with concrete proof, structure, and readable flow.  
+**Questions asked:**
+- Before I draft the body, is there anything else you want to include? A specific story detail, a number, a quote?
+- Does this capture what you wanted to say? What would you add, remove, or change?
+
+**Step 4: Ending**  
+**Objective:** Land the post with the right kicker and goal-aligned CTA.  
+**Questions asked:**
+- Which kicker type feels right? Or should I pick the best fit?
+- Which ending resonates? Or want me to adjust?
+- Which CTA connects best to your goal?
+
+**Step 5: Edit & Polish**  
+**Objective:** Remove AI tone, add human texture, and finalize publish-ready voice.  
+**Questions asked:**
+- Does this feel cleaner? Anything I cut that you want back?
+- Read this out loud. Does it sound like something you'd actually say? Or does any part still feel robotic?
+- Read-aloud test: flag any sentence where you stumble or where it sounds like a textbook instead of a person talking.
+
 ## Technical Design
 
 - **Two execution tracks**
