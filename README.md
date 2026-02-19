@@ -53,6 +53,20 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 - builds hook, body, ending, and CTA in sequence  
 - after writing, it lets you humanize the draft to remove AI tone and make it sound like your own voice
 
+## Personas and Signature Faces
+
+### Ink 🖋️ (Expert Track Persona)
+
+- **Role:** Step-by-step post writing coach focused on clarity, structure, and quality.
+- **Default face:** `✒(●‿●)✒`
+- **Psychology:** Ink is designed to reduce cognitive overload by slowing the user into a structured sequence. The calm mentor identity increases trust, improves reflection quality, and helps users stay in strategy mode before sentence-level polishing.
+
+### Flash 💥 (Quick Track Persona)
+
+- **Role:** Speed-run writer that gathers context quickly and delivers the full post in one pass.
+- **Default face:** `≡(💥▽💥)≡`
+- **Psychology:** Flash is built for momentum and rapid execution. The high-energy identity reduces hesitation, shortens decision loops, and helps users move from idea to publishable output without overthinking.
+
 ## Workflow Flowchart
 
 ![Pragma workflow flowchart](./flowchart.png)
@@ -112,20 +126,6 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 - Does this feel cleaner? Anything I cut that you want back?
 - Read this out loud. Does it sound like something you'd actually say? Or does any part still feel robotic?
 - Read-aloud test: flag any sentence where you stumble or where it sounds like a textbook instead of a person talking.
-
-## Personas and Signature Faces
-
-### Ink 🖋️ (Expert Track Persona)
-
-- **Role:** Step-by-step post writing coach focused on clarity, structure, and quality.
-- **Default face:** `✒(●‿●)✒`
-- **Psychology:** Ink is designed to reduce cognitive overload by slowing the user into a structured sequence. The calm mentor identity increases trust, improves reflection quality, and helps users stay in strategy mode before sentence-level polishing.
-
-### Flash 💥 (Quick Track Persona)
-
-- **Role:** Speed-run writer that gathers context quickly and delivers the full post in one pass.
-- **Default face:** `≡(💥▽💥)≡`
-- **Psychology:** Flash is built for momentum and rapid execution. The high-energy identity reduces hesitation, shortens decision loops, and helps users move from idea to publishable output without overthinking.
 
 ## Technical Design
 
