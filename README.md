@@ -18,7 +18,7 @@ Then use it inside Claude Code, OpenClaw, or any CLI tool or IDE that accepts sk
 
 ### CodeMachine CLI (Full experiance)
 
-Make sure you have CodeMachine CLI installed.
+Make sure you have [CodeMachine CLI](https://github.com/moazbuilds/CodeMachine-CLI) installed.
 
 ```bash
 codemachine import moazbuilds/pragma-post-writer
