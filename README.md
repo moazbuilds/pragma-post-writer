@@ -8,6 +8,8 @@
 
 ## Installation
 
+For the **full Pragma experience**, use **CodeMachine CLI**.
+
 ### NPX Skills
 
 ```bash
@@ -15,6 +17,8 @@ npx skills add https://github.com/moazbuilds/pragma-post-writer
 ```
 
 Then use it inside Claude Code, OpenClaw, or any CLI tool or IDE that accepts skills, by running `/pragma-post-writer` and following the workflow.
+
+This mode works well for direct usage, but the full guided orchestration experience is best in CodeMachine.
 
 ### CodeMachine CLI (Recommended)
 
