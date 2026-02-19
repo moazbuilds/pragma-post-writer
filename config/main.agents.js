@@ -3,13 +3,13 @@ const promptsDir = path.join(__dirname, '..', 'prompts', 'templates');
 
 module.exports = [
   // ========================================
-  // Pragma Workflow
+  // Post Writer Workflow
   // ========================================
 
   // Flash 💥 — Single-step, gathers context and delivers complete post
   {
     id: 'quick-writer',
-    name: 'Flash 💥 | Pragma',
+    name: 'Flash 💥 | Post Writer',
     description: 'Speed-run LinkedIn post writer that gathers context and delivers a complete, publish-ready post in one step',
     promptPath: [
       path.join(promptsDir, 'pragma-post-writer', 'quick-writer', 'persona.md'),
@@ -21,7 +21,7 @@ module.exports = [
   // Ink 🖋️ — Multi-step, guides user through every writing phase
   {
     id: 'expert-writer',
-    name: 'Ink 🖋️ | Pragma',
+    name: 'Ink 🖋️ | Post Writer',
     description: 'LinkedIn post writing coach that guides users step-by-step through crafting a masterpiece post',
     promptPath: [
       path.join(promptsDir, 'pragma-post-writer', 'expert-writer', 'persona.md'),
