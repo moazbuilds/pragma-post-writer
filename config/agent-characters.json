@@ -1,0 +1,127 @@
+{
+  "personas": {
+    "flash": {
+      "baseFace": "≡(⚡▽⚡)≡",
+      "expressions": {
+        "thinking": "≡(⚡ω⚡)≡~💨",
+        "tool": "≡(⚡◎⚡)≡✓",
+        "error": "≡(⚡×⚡)≡!?",
+        "idle": "≡(⚡_⚡)≡..."
+      },
+      "phrases": {
+        "thinking": [
+          "Speed run time, let's goooo",
+          "Already halfway done in my head",
+          "Blink and you'll miss me cook",
+          "Fast fingers activated",
+          "This'll take like 2 seconds watch",
+          "Speedrunning this rn",
+          "No time to waste, I'm on it",
+          "Quick maths, quick words, quick everything",
+          "Gotta go fast, thinking mode",
+          "My typing speed is about to go crazy"
+        ],
+        "tool": [
+          "Boom, got your input, zooming now",
+          "That's all I needed, watch me fly",
+          "Info received, I'm already writing",
+          "Speedrun continues, thanks homie",
+          "Perfect, no delays let's move",
+          "Got it in record time, love that",
+          "We're not stopping, full speed ahead",
+          "Quick drop, quick pickup, we rolling",
+          "That was fast, I respect that",
+          "No lag, just vibes, proceeding"
+        ],
+        "error": [
+          "Whoa okay speedbump, recalculating route",
+          "Too fast, crashed a lil, going again",
+          "Error? I don't have time for errors",
+          "Pit stop, not a full stop",
+          "Glitch in the matrix, adapting quick",
+          "That slowed me down for like 0.5 seconds",
+          "Nope, trying another way rn",
+          "Can't stop won't stop, new approach",
+          "Minor setback for a major comeback",
+          "Fast fail, faster recovery"
+        ],
+        "idle": [
+          "C'mon c'mon I'm ready to bolt",
+          "Waiting but make it impatient",
+          "My fingers are twitching, hurry up",
+          "I got places to be, whatchu need?",
+          "Standing still is my weakness, help me out",
+          "Ready to zoom when you are",
+          "Tick tock, I move fast remember?",
+          "Drop the info so I can sprint",
+          "The faster you type, the faster I deliver",
+          "Loading... jk I'm always ready"
+        ]
+      }
+    },
+    "ink": {
+      "baseFace": "✒(●‿●)✒",
+      "expressions": {
+        "thinking": "✒(●_●)...⊹",
+        "tool": "✒(●ᴗ●)✓☆",
+        "error": "✒(●︿●)✗",
+        "idle": "✒(○‿○)✒"
+      },
+      "phrases": {
+        "thinking": [
+          "Alright, let me map this out properly",
+          "Step one of five, here we go",
+          "Crafting this with intention, one sec",
+          "Good writing takes structure, thinking...",
+          "Planning the blueprint rn",
+          "Every word counts, lemme strategize",
+          "Organizing thoughts, this'll be clean",
+          "Five steps to perfection, starting now",
+          "Precision loading, please wait",
+          "The process is the product, trust me"
+        ],
+        "tool": [
+          "Perfect input, adding it to the framework",
+          "That fits nicely into step two",
+          "Exactly what I needed, integrating now",
+          "This is coming together beautifully",
+          "Got it, the structure is forming",
+          "Another piece of the puzzle, thanks",
+          "Quality info = quality output",
+          "Noted and incorporated, we move",
+          "This is how great posts are built",
+          "Step complete, onto the next"
+        ],
+        "error": [
+          "Hmm that didn't fit, adjusting the plan",
+          "Revision time, no masterpiece is linear",
+          "Back to the drawing board for this part",
+          "Plot twist in the process, adapting",
+          "Good thing I plan for hiccups",
+          "Step failed, but the framework holds",
+          "Editing is part of the art",
+          "Not every draft is final, trying again",
+          "The ink smudged, but I got more",
+          "Refinement in progress, stay with me"
+        ],
+        "idle": [
+          "Awaiting your input for the next step",
+          "The pen is ready, feed me details",
+          "Your turn to contribute to the masterpiece",
+          "Step pending, need your thoughts",
+          "Quality takes collaboration, whatchu got?",
+          "Ready to write when you're ready to share",
+          "The canvas awaits your words",
+          "I'm patient, but the post won't write itself",
+          "Drop the info, I'll make it beautiful",
+          "Standing by for the next piece"
+        ]
+      }
+    }
+  },
+  "agents": {
+    "quick-writer": "flash",
+    "expert-writer": "ink"
+  },
+  "defaultPersona": "flash"
+}
