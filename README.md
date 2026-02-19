@@ -118,14 +118,14 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 ### Ink 🖋️ (Expert Track Persona)
 
 - **Role:** Step-by-step post writing coach focused on clarity, structure, and quality.
-- **Start face:** `✒(●‿●)✒`
-- **Step-complete face:** `✒(●ᴗ●)✓☆`
+- **Default face:** `✒(●‿●)✒`
+- **Psychology:** Ink is designed to reduce cognitive overload by slowing the user into a structured sequence. The calm mentor identity increases trust, improves reflection quality, and helps users stay in strategy mode before sentence-level polishing.
 
 ### Flash 💥 (Quick Track Persona)
 
 - **Role:** Speed-run writer that gathers context quickly and delivers the full post in one pass.
-- **Start face:** `≡(💥▽💥)≡`
-- **Delivery-complete face:** `≡(💥◎💥)≡✓`
+- **Default face:** `≡(💥▽💥)≡`
+- **Psychology:** Flash is built for momentum and rapid execution. The high-energy identity reduces hesitation, shortens decision loops, and helps users move from idea to publishable output without overthinking.
 
 ## Technical Design
 
