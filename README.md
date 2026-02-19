@@ -12,7 +12,7 @@ It does not begin with sentence polishing. It begins with clarity: what you actu
 > **Pragma is not just a tool that writes for you.**  
 > It is a workflow that helps you think, structure, and communicate like yourself with strategic depth.
 
-## Example
+## Pragma vs Typical AI Post Writers
 
 **Typical AI post writer:**  
 - wording gets cleaner  
